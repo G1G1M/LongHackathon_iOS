@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1A75912D19904C0041E6AB /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75902D19904C0041E6AB /* KakaoSDK */; };
+		5F1A75932D19904C0041E6AB /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75922D19904C0041E6AB /* KakaoSDKAuth */; };
+		5F1A75952D19904C0041E6AB /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75942D19904C0041E6AB /* KakaoSDKCert */; };
+		5F1A75972D19904C0041E6AB /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75962D19904C0041E6AB /* KakaoSDKCertCore */; };
+		5F1A75992D19904C0041E6AB /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75982D19904C0041E6AB /* KakaoSDKCommon */; };
+		5F1A759B2D19904C0041E6AB /* KakaoSDKFriend in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A759A2D19904C0041E6AB /* KakaoSDKFriend */; };
+		5F1A759D2D19904C0041E6AB /* KakaoSDKFriendCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A759C2D19904C0041E6AB /* KakaoSDKFriendCore */; };
+		5F1A759F2D19904C0041E6AB /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A759E2D19904C0041E6AB /* KakaoSDKNavi */; };
+		5F1A75A12D19904C0041E6AB /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75A02D19904C0041E6AB /* KakaoSDKShare */; };
+		5F1A75A32D19904C0041E6AB /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75A22D19904C0041E6AB /* KakaoSDKTalk */; };
+		5F1A75A52D19904C0041E6AB /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75A42D19904C0041E6AB /* KakaoSDKTemplate */; };
+		5F1A75A72D19904C0041E6AB /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1A75A62D19904C0041E6AB /* KakaoSDKUser */; };
+		5F95D3EA2D19747E0009B234 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5F95D3E92D19747E0009B234 /* KakaoSDK */; };
+		5F95D3EC2D19747E0009B234 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5F95D3EB2D19747E0009B234 /* KakaoSDKAuth */; };
+		5F95D3EE2D19747E0009B234 /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 5F95D3ED2D19747E0009B234 /* KakaoSDKCert */; };
+		5F95D3F02D19747E0009B234 /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5F95D3EF2D19747E0009B234 /* KakaoSDKCertCore */; };
+		5F95D3F22D19747E0009B234 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 5F95D3F12D19747E0009B234 /* KakaoSDKCommon */; };
+		5FA257B12D198B5F00D8E4FF /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257B02D198B5F00D8E4FF /* KakaoSDK */; };
+		5FA257B32D198B5F00D8E4FF /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257B22D198B5F00D8E4FF /* KakaoSDKAuth */; };
+		5FA257B52D198B5F00D8E4FF /* KakaoSDKCert in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257B42D198B5F00D8E4FF /* KakaoSDKCert */; };
+		5FA257B72D198B5F00D8E4FF /* KakaoSDKCertCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257B62D198B5F00D8E4FF /* KakaoSDKCertCore */; };
+		5FA257B92D198B5F00D8E4FF /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257B82D198B5F00D8E4FF /* KakaoSDKCommon */; };
+		5FA257BB2D198B5F00D8E4FF /* KakaoSDKFriend in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257BA2D198B5F00D8E4FF /* KakaoSDKFriend */; };
+		5FA257BD2D198B5F00D8E4FF /* KakaoSDKFriendCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257BC2D198B5F00D8E4FF /* KakaoSDKFriendCore */; };
+		5FA257BF2D198B5F00D8E4FF /* KakaoSDKNavi in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257BE2D198B5F00D8E4FF /* KakaoSDKNavi */; };
+		5FA257C12D198B5F00D8E4FF /* KakaoSDKShare in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257C02D198B5F00D8E4FF /* KakaoSDKShare */; };
+		5FA257C32D198B5F00D8E4FF /* KakaoSDKTalk in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257C22D198B5F00D8E4FF /* KakaoSDKTalk */; };
+		5FA257C52D198B5F00D8E4FF /* KakaoSDKTemplate in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257C42D198B5F00D8E4FF /* KakaoSDKTemplate */; };
+		5FA257C72D198B5F00D8E4FF /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA257C62D198B5F00D8E4FF /* KakaoSDKUser */; };
+		5FA9750E2D2578B20080B05D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA9750D2D2578B20080B05D /* SDWebImage */; };
+		5FA975102D2578B20080B05D /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5FA9750F2D2578B20080B05D /* SDWebImageMapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FAD6F1E2D17129F00EE3B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FAD6EFF2D17129C00EE3B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FAD6F062D17129C00EE3B9C;
+			remoteInfo = Mugejungsim;
+		};
+		5FAD6F282D17129F00EE3B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FAD6EFF2D17129C00EE3B9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FAD6F062D17129C00EE3B9C;
+			remoteInfo = Mugejungsim;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F00BD142D1AA36F00A4464B /* MyShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = MyShader.metal; sourceTree = "<group>"; };
+		5F7548792D198E7100D718F9 /* Mugejungsim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mugejungsim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F75487A2D198E7100D718F9 /* MugejungsimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MugejungsimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F75487B2D198E7100D718F9 /* MugejungsimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MugejungsimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5F419C182D19C72D00D1D862 /* Exceptions for "Mugejungsim" folder in "MugejungsimTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 5FAD6F1C2D17129F00EE3B9C /* MugejungsimTests */;
+		};
+		5F419C192D19C72D00D1D862 /* Exceptions for "Mugejungsim" folder in "MugejungsimUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 5FAD6F262D17129F00EE3B9C /* MugejungsimUITests */;
+		};
+		5FAD6F2F2D17129F00EE3B9C /* Exceptions for "Mugejungsim" folder in "Mugejungsim" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5FAD6F062D17129C00EE3B9C /* Mugejungsim */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5FAD6F092D17129C00EE3B9C /* Mugejungsim */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5FAD6F2F2D17129F00EE3B9C /* Exceptions for "Mugejungsim" folder in "Mugejungsim" target */,
+				5F419C182D19C72D00D1D862 /* Exceptions for "Mugejungsim" folder in "MugejungsimTests" target */,
+				5F419C192D19C72D00D1D862 /* Exceptions for "Mugejungsim" folder in "MugejungsimUITests" target */,
+			);
+			path = Mugejungsim;
+			sourceTree = "<group>";
+		};
+		5FAD6F202D17129F00EE3B9C /* MugejungsimTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MugejungsimTests;
+			sourceTree = "<group>";
+		};
+		5FAD6F2A2D17129F00EE3B9C /* MugejungsimUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MugejungsimUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FAD6F042D17129C00EE3B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA257B52D198B5F00D8E4FF /* KakaoSDKCert in Frameworks */,
+				5F1A75A32D19904C0041E6AB /* KakaoSDKTalk in Frameworks */,
+				5FA257C32D198B5F00D8E4FF /* KakaoSDKTalk in Frameworks */,
+				5FA257B92D198B5F00D8E4FF /* KakaoSDKCommon in Frameworks */,
+				5FA257C12D198B5F00D8E4FF /* KakaoSDKShare in Frameworks */,
+				5F95D3EA2D19747E0009B234 /* KakaoSDK in Frameworks */,
+				5FA257B72D198B5F00D8E4FF /* KakaoSDKCertCore in Frameworks */,
+				5F95D3F02D19747E0009B234 /* KakaoSDKCertCore in Frameworks */,
+				5FA975102D2578B20080B05D /* SDWebImageMapKit in Frameworks */,
+				5F1A75A72D19904C0041E6AB /* KakaoSDKUser in Frameworks */,
+				5F1A759F2D19904C0041E6AB /* KakaoSDKNavi in Frameworks */,
+				5F95D3EC2D19747E0009B234 /* KakaoSDKAuth in Frameworks */,
+				5F1A75A52D19904C0041E6AB /* KakaoSDKTemplate in Frameworks */,
+				5F1A759D2D19904C0041E6AB /* KakaoSDKFriendCore in Frameworks */,
+				5FA257C72D198B5F00D8E4FF /* KakaoSDKUser in Frameworks */,
+				5FA257BD2D198B5F00D8E4FF /* KakaoSDKFriendCore in Frameworks */,
+				5F95D3F22D19747E0009B234 /* KakaoSDKCommon in Frameworks */,
+				5F95D3EE2D19747E0009B234 /* KakaoSDKCert in Frameworks */,
+				5F1A75952D19904C0041E6AB /* KakaoSDKCert in Frameworks */,
+				5FA257B12D198B5F00D8E4FF /* KakaoSDK in Frameworks */,
+				5FA257C52D198B5F00D8E4FF /* KakaoSDKTemplate in Frameworks */,
+				5FA257BF2D198B5F00D8E4FF /* KakaoSDKNavi in Frameworks */,
+				5FA257B32D198B5F00D8E4FF /* KakaoSDKAuth in Frameworks */,
+				5FA257BB2D198B5F00D8E4FF /* KakaoSDKFriend in Frameworks */,
+				5F1A75912D19904C0041E6AB /* KakaoSDK in Frameworks */,
+				5FA9750E2D2578B20080B05D /* SDWebImage in Frameworks */,
+				5F1A75972D19904C0041E6AB /* KakaoSDKCertCore in Frameworks */,
+				5F1A75992D19904C0041E6AB /* KakaoSDKCommon in Frameworks */,
+				5F1A75932D19904C0041E6AB /* KakaoSDKAuth in Frameworks */,
+				5F1A759B2D19904C0041E6AB /* KakaoSDKFriend in Frameworks */,
+				5F1A75A12D19904C0041E6AB /* KakaoSDKShare in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAD6F1A2D17129F00EE3B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAD6F242D17129F00EE3B9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FAD6EFE2D17129C00EE3B9C = {
+			isa = PBXGroup;
+			children = (
+				5FAD6F092D17129C00EE3B9C /* Mugejungsim */,
+				5FAD6F202D17129F00EE3B9C /* MugejungsimTests */,
+				5FAD6F2A2D17129F00EE3B9C /* MugejungsimUITests */,
+				5F7548792D198E7100D718F9 /* Mugejungsim.app */,
+				5F75487A2D198E7100D718F9 /* MugejungsimTests.xctest */,
+				5F75487B2D198E7100D718F9 /* MugejungsimUITests.xctest */,
+				5F00BD142D1AA36F00A4464B /* MyShader.metal */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FAD6F062D17129C00EE3B9C /* Mugejungsim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAD6F302D17129F00EE3B9C /* Build configuration list for PBXNativeTarget "Mugejungsim" */;
+			buildPhases = (
+				5FAD6F032D17129C00EE3B9C /* Sources */,
+				5FAD6F042D17129C00EE3B9C /* Frameworks */,
+				5FAD6F052D17129C00EE3B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5FAD6F092D17129C00EE3B9C /* Mugejungsim */,
+			);
+			name = Mugejungsim;
+			productName = Mugejungsim;
+			productReference = 5F7548792D198E7100D718F9 /* Mugejungsim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FAD6F1C2D17129F00EE3B9C /* MugejungsimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAD6F352D17129F00EE3B9C /* Build configuration list for PBXNativeTarget "MugejungsimTests" */;
+			buildPhases = (
+				5FAD6F192D17129F00EE3B9C /* Sources */,
+				5FAD6F1A2D17129F00EE3B9C /* Frameworks */,
+				5FAD6F1B2D17129F00EE3B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FAD6F1F2D17129F00EE3B9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5FAD6F202D17129F00EE3B9C /* MugejungsimTests */,
+			);
+			name = MugejungsimTests;
+			productName = MugejungsimTests;
+			productReference = 5F75487A2D198E7100D718F9 /* MugejungsimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FAD6F262D17129F00EE3B9C /* MugejungsimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAD6F382D17129F00EE3B9C /* Build configuration list for PBXNativeTarget "MugejungsimUITests" */;
+			buildPhases = (
+				5FAD6F232D17129F00EE3B9C /* Sources */,
+				5FAD6F242D17129F00EE3B9C /* Frameworks */,
+				5FAD6F252D17129F00EE3B9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FAD6F292D17129F00EE3B9C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5FAD6F2A2D17129F00EE3B9C /* MugejungsimUITests */,
+			);
+			name = MugejungsimUITests;
+			productName = MugejungsimUITests;
+			productReference = 5F75487B2D198E7100D718F9 /* MugejungsimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FAD6EFF2D17129C00EE3B9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					5FAD6F062D17129C00EE3B9C = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					5FAD6F1C2D17129F00EE3B9C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5FAD6F062D17129C00EE3B9C;
+					};
+					5FAD6F262D17129F00EE3B9C = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 5FAD6F062D17129C00EE3B9C;
+					};
+				};
+			};
+			buildConfigurationList = 5FAD6F022D17129C00EE3B9C /* Build configuration list for PBXProject "Mugejungsim" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FAD6EFE2D17129C00EE3B9C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				5FA9750C2D2578B20080B05D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5FAD6EFE2D17129C00EE3B9C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FAD6F062D17129C00EE3B9C /* Mugejungsim */,
+				5FAD6F1C2D17129F00EE3B9C /* MugejungsimTests */,
+				5FAD6F262D17129F00EE3B9C /* MugejungsimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FAD6F052D17129C00EE3B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAD6F1B2D17129F00EE3B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAD6F252D17129F00EE3B9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FAD6F032D17129C00EE3B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAD6F192D17129F00EE3B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAD6F232D17129F00EE3B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FAD6F1F2D17129F00EE3B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FAD6F062D17129C00EE3B9C /* Mugejungsim */;
+			targetProxy = 5FAD6F1E2D17129F00EE3B9C /* PBXContainerItemProxy */;
+		};
+		5FAD6F292D17129F00EE3B9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FAD6F062D17129C00EE3B9C /* Mugejungsim */;
+			targetProxy = 5FAD6F282D17129F00EE3B9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FAD6F312D17129F00EE3B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mugejungsim/Mugejungsim.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BS6FMWVMX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mugejungsim/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "앱이 카메라에 접근하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "로컬 네트워크에 접근하기 위해 사용됩니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진첩에 글귀 이미지를 저장할 수 있습니다. ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 갤러리에서 이미지를 선택하기 위해 접근 권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = one.seunghun.ram.Mugejungsim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FAD6F322D17129F00EE3B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Mugejungsim/Mugejungsim.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mugejungsim/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "앱이 카메라에 접근하려면 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "로컬 네트워크에 접근하기 위해 사용됩니다.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "사진첩에 글귀 이미지를 저장할 수 있습니다. ";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진 갤러리에서 이미지를 선택하기 위해 접근 권한이 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ram.Mugejungsim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FAD6F332D17129F00EE3B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FAD6F342D17129F00EE3B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FAD6F362D17129F00EE3B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBKQCU426T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ram.MugejungsimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mugejungsim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mugejungsim";
+			};
+			name = Debug;
+		};
+		5FAD6F372D17129F00EE3B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBKQCU426T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ram.MugejungsimTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mugejungsim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mugejungsim";
+			};
+			name = Release;
+		};
+		5FAD6F392D17129F00EE3B9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBKQCU426T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ram.MugejungsimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mugejungsim;
+			};
+			name = Debug;
+		};
+		5FAD6F3A2D17129F00EE3B9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBKQCU426T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ram.MugejungsimUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mugejungsim;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FAD6F022D17129C00EE3B9C /* Build configuration list for PBXProject "Mugejungsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAD6F332D17129F00EE3B9C /* Debug */,
+				5FAD6F342D17129F00EE3B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FAD6F302D17129F00EE3B9C /* Build configuration list for PBXNativeTarget "Mugejungsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAD6F312D17129F00EE3B9C /* Debug */,
+				5FAD6F322D17129F00EE3B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FAD6F352D17129F00EE3B9C /* Build configuration list for PBXNativeTarget "MugejungsimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAD6F362D17129F00EE3B9C /* Debug */,
+				5FAD6F372D17129F00EE3B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FAD6F382D17129F00EE3B9C /* Build configuration list for PBXNativeTarget "MugejungsimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAD6F392D17129F00EE3B9C /* Debug */,
+				5FAD6F3A2D17129F00EE3B9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		5FA9750C2D2578B20080B05D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.20.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F1A75902D19904C0041E6AB /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDK;
+		};
+		5F1A75922D19904C0041E6AB /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKAuth;
+		};
+		5F1A75942D19904C0041E6AB /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKCert;
+		};
+		5F1A75962D19904C0041E6AB /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKCertCore;
+		};
+		5F1A75982D19904C0041E6AB /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKCommon;
+		};
+		5F1A759A2D19904C0041E6AB /* KakaoSDKFriend */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKFriend;
+		};
+		5F1A759C2D19904C0041E6AB /* KakaoSDKFriendCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKFriendCore;
+		};
+		5F1A759E2D19904C0041E6AB /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKNavi;
+		};
+		5F1A75A02D19904C0041E6AB /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKShare;
+		};
+		5F1A75A22D19904C0041E6AB /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKTalk;
+		};
+		5F1A75A42D19904C0041E6AB /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKTemplate;
+		};
+		5F1A75A62D19904C0041E6AB /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KakaoSDKUser;
+		};
+		5F95D3E92D19747E0009B234 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		5F95D3EB2D19747E0009B234 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		5F95D3ED2D19747E0009B234 /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		5F95D3EF2D19747E0009B234 /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		5F95D3F12D19747E0009B234 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		5FA257B02D198B5F00D8E4FF /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		5FA257B22D198B5F00D8E4FF /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		5FA257B42D198B5F00D8E4FF /* KakaoSDKCert */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCert;
+		};
+		5FA257B62D198B5F00D8E4FF /* KakaoSDKCertCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCertCore;
+		};
+		5FA257B82D198B5F00D8E4FF /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		5FA257BA2D198B5F00D8E4FF /* KakaoSDKFriend */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriend;
+		};
+		5FA257BC2D198B5F00D8E4FF /* KakaoSDKFriendCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKFriendCore;
+		};
+		5FA257BE2D198B5F00D8E4FF /* KakaoSDKNavi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKNavi;
+		};
+		5FA257C02D198B5F00D8E4FF /* KakaoSDKShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKShare;
+		};
+		5FA257C22D198B5F00D8E4FF /* KakaoSDKTalk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTalk;
+		};
+		5FA257C42D198B5F00D8E4FF /* KakaoSDKTemplate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKTemplate;
+		};
+		5FA257C62D198B5F00D8E4FF /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F95D3E82D19747E0009B234 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+		5FA9750D2D2578B20080B05D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FA9750C2D2578B20080B05D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		5FA9750F2D2578B20080B05D /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5FA9750C2D2578B20080B05D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5FAD6EFF2D17129C00EE3B9C /* Project object */;
+}
